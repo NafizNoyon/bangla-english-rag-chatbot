@@ -2,6 +2,12 @@
 
 A multilingual PDF-based Retrieval-Augmented Generation chatbot that allows users to upload Bangla or English PDF documents, ask questions, retrieve relevant document chunks using vector search, and generate source-grounded answers with page references using Gemini.
 
+## Live Demo
+
+Try the deployed app here:
+
+https://bangla-english-rag-chatbot.streamlit.app
+
 ## Project Overview
 
 This project demonstrates an end-to-end LLM application pipeline for document-based question answering. The system extracts text from uploaded PDFs, splits the document into meaningful chunks, generates multilingual embeddings, stores them in ChromaDB, retrieves relevant chunks through semantic search, and produces final answers using Gemini.
