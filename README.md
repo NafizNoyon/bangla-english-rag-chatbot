@@ -44,6 +44,19 @@ PDF Upload
 → Gemini Answer Generation
 → Source-grounded Response
 ```
+## App Screenshots
+
+### App Overview
+
+![App Overview](assets/overview.png)
+
+### Source-Grounded Answer Generation
+
+![RAG Answer](assets/rag-answer.png)
+
+### Retrieved Sources and Relevant Chunks
+
+![Retrieved Sources](assets/retrieved-sources.png)
 
 ## Project Structure
 
