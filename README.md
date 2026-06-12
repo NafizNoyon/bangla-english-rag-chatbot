@@ -1,4 +1,4 @@
-# Bangla-English RAG Chatbot
+﻿# Bangla-English RAG Chatbot
 
 A multilingual PDF-based Retrieval-Augmented Generation chatbot that allows users to upload Bangla or English PDF documents, ask questions, retrieve relevant document chunks using vector search, and generate source-grounded answers with page references using Gemini.
 
@@ -10,31 +10,31 @@ The project is designed as a portfolio-grade AI engineering project focused on R
 
 ## Key Features
 
-* PDF upload and text extraction
-* Page-wise document processing
-* Text chunking with overlap
-* Multilingual embeddings for Bangla and English
-* ChromaDB vector storage
-* Semantic similarity search
-* Gemini-powered answer generation
-* Source-grounded answers with page and chunk references
-* Streamlit web interface
-* Secure API key management using `.env`
+- PDF upload and text extraction
+- Page-wise document processing
+- Text chunking with overlap
+- Multilingual embeddings for Bangla and English
+- ChromaDB vector storage
+- Semantic similarity search
+- Gemini-powered answer generation
+- Source-grounded answers with page and chunk references
+- Streamlit web interface
+- Secure API key management using .env
 
 ## Tech Stack
 
-* Python
-* Streamlit
-* LangChain
-* ChromaDB
-* Sentence Transformers
-* Google Gemini
-* pypdf
-* python-dotenv
+- Python
+- Streamlit
+- LangChain
+- ChromaDB
+- Sentence Transformers
+- Google Gemini
+- pypdf
+- python-dotenv
 
 ## RAG Pipeline
 
-```text
+``` text
 PDF Upload
 → Text Extraction
 → Text Chunking
@@ -47,7 +47,7 @@ PDF Upload
 
 ## Project Structure
 
-```text
+``` text
 bangla-english-rag-chatbot/
 │
 ├── app.py
@@ -73,14 +73,14 @@ bangla-english-rag-chatbot/
 
 ### 1. Clone the repository
 
-```bash
+``` bash
 git clone https://github.com/NafizNoyon/bangla-english-rag-chatbot.git
 cd bangla-english-rag-chatbot
 ```
 
 ### 2. Create a virtual environment
 
-```bash
+``` bash
 python -m venv .venv
 ```
 
@@ -88,39 +88,39 @@ python -m venv .venv
 
 For Windows PowerShell:
 
-```bash
+``` bash
 .\.venv\Scripts\Activate.ps1
 ```
 
 For Windows CMD:
 
-```bash
+``` bash
 .venv\Scripts\activate
 ```
 
 ### 4. Install dependencies
 
-```bash
+``` bash
 pip install -r requirements.txt
 ```
 
 ### 5. Configure Gemini API key
 
-Create a `.env` file in the project root and add:
+Create a .env file in the project root and add:
 
-```env
+``` env
 GOOGLE_API_KEY=your_google_gemini_api_key_here
 ```
 
 ### 6. Run the app
 
-```bash
+``` bash
 streamlit run app.py
 ```
 
 ## Example Questions
 
-```text
+``` text
 What is the main objective of this paper?
 What is the main methodology of this paper?
 Which deep learning models are used in this paper?
@@ -130,24 +130,24 @@ Which deep learning models are used in this paper?
 
 ## Skills Demonstrated
 
-* Retrieval-Augmented Generation
-* LLM application development
-* Multilingual NLP
-* Vector embeddings
-* Semantic search
-* PDF document processing
-* Streamlit application development
-* Secure environment variable handling
-* Modular Python project architecture
-* Source-grounded answer generation
+- Retrieval-Augmented Generation
+- LLM application development
+- Multilingual NLP
+- Vector embeddings
+- Semantic search
+- PDF document processing
+- Streamlit application development
+- Secure environment variable handling
+- Modular Python project architecture
+- Source-grounded answer generation
 
 ## Future Improvements
 
-* Add chat history
-* Add multi-PDF support
-* Add document summary generation
-* Add reranking for improved retrieval quality
-* Add downloadable answer reports
-* Add Docker support
-* Add FastAPI backend
-* Add Streamlit Cloud deployment
+- Add chat history
+- Add multi-PDF support
+- Add document summary generation
+- Add reranking for improved retrieval quality
+- Add downloadable answer reports
+- Add Docker support
+- Add FastAPI backend
+- Add Streamlit Cloud deployment
